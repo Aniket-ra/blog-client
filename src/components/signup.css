@@ -1,0 +1,13 @@
+.signupWrapper{
+    display: flex;
+    justify-content: center;
+}
+.signupCard{
+    width:27vw;
+    margin-top: 5%;
+
+}
+body{
+ background-image:url("https://uploads-ssl.webflow.com/610bfc91018da08fe2526479/610bfc91018da0281b5265c0_background-about-hero-tech-ui-kit-webflow-template.svg") ;
+ 
+}

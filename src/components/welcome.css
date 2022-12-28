@@ -1,0 +1,26 @@
+.nav{
+    background-color: rgb(124, 128, 240);
+    display: flex;
+    flex-direction: row;
+   
+    height: 5rem;
+}
+.navul{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style-type: none;
+}
+.main{
+    text-align: center;
+}
+.main1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 18rem;
+}
+.main1 li{
+    margin-left: 2rem;
+}
