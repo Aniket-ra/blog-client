@@ -39,7 +39,7 @@ export default function AllBlogs() {
           }
           
           title={blogs.Title}
-          subheader="September 14, 2016"
+          subheader={`post${index+1}`}
         />
         <CardMedia
           component="img"
