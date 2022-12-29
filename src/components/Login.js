@@ -57,6 +57,9 @@ export default function Login(data) {
                 
 
             }
+            else{
+                alert("user not registered  ")
+            }
         });
         
     
