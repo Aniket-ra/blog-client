@@ -29,7 +29,7 @@ export default function CreateBlog({Email}) {
           Description:input.Description,
           Image:input.Image
         }
-        fetch("http://localhost:5000/createBlog",{
+        fetch("https://blog-app-server-8x7l.onrender.com/createBlog",{
             method:"POST",
             crossDomain:true,
             headers:{
