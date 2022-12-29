@@ -51,9 +51,9 @@ export default function Signup() {
         .then((data)=>{
             console.log(data,"userDetails");
             if(data.status=="ok"){
-                alert("Signin succesfully")
+                alert("Signin succesfully Now you can login")
                 
-                 window.location.href="./welcome";
+                 window.location.href="./login";
                 
 
             }
