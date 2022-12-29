@@ -78,8 +78,8 @@ export default function UpdateBlog(props) {
                     <TextField  name="Description"onChange={handleChange1} value={input.Description} fullWidth={true} margin='auto' variant="outlined"/>
                     <InputLabel > ImageURL</InputLabel>
                     <TextField  name="Image" onChange={handleChange1} value={input.Image} fullWidth={true} margin='auto' variant="outlined"/>
-                    <Button variant="contained" fullWidth={true} onClick={submitHandler} >
-                            Update My Blog
+                   <Button variant="contained" fullWidth={true} onClick={submitHandler} >
+                    <Link to='/myBlog' style={{textDecoration : 'none'}}>Update My Blog</Link>
                         </Button>
             </Box>
             </form>
