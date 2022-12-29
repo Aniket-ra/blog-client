@@ -17,7 +17,7 @@ export default function AllBlogs() {
   const[blog,setBlog]=useState("")
   useEffect(()=>{
   const fetchdata= async()=>{
-    const data= await axios.get("http://localhost:5000/allBlog")
+    const data= await axios.get("https://blog-app-server-8x7l.onrender.com/allBlog")
     console.log(data);
     setBlog(data)
   };
