@@ -53,7 +53,7 @@ export default function MyBlog(Email) {
                 }
 
                 title={blogs.Title}
-                subheader="September 14"
+                subheader={`post${index+1}`}
               />
               <div style={{ "display": "flex", "flexDirection": "row", "justifyContent": "end" }}>
                 <button onClick={()=>Delete(blogs._id)} type="button" className="btn btn-danger">Delete</button>
