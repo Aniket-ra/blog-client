@@ -32,7 +32,7 @@ export default function Login(data) {
           Email:input.Email,
           Password:input.Password
         }
-        fetch("http://localhost:5000/login",{
+        fetch("https://blog-app-server-8x7l.onrender.com/login",{
             method:"POST",
             crossDomain:true,
             headers:{
