@@ -34,7 +34,7 @@ export default function MyBlog(Email) {
     fetchdata();
   }
   const Update=async(Id)=>{
-    const data=await axios.post("http://localhost:5000/myBlog/update", { Id })
+    const data=await axios.post("https://blog-app-server-8x7l.onrender.com/update", { Id })
 
     fetchdata();
   }
