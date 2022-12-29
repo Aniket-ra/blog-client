@@ -17,7 +17,7 @@ export default function UpdateBlog(props) {
  
   const fetchdata = async () => {
    
-    const newdata=await axios.post("http://localhost:5000/myBlog/id", {Id})
+    const newdata=await axios.post("https://blog-app-server-8x7l.onrender.com/myBlog/id", {Id})
     setBlog(newdata)
     console.log(newdata)
   };
@@ -42,7 +42,7 @@ export default function UpdateBlog(props) {
     //console.log(input)
   }
   const  submitHandler=async()=> {
-    await axios.post("http://localhost:5000/myBlog/update", { Id,Title:input.Title,Description:input.Description,Image:input.Image})
+    await axios.post("https://blog-app-server-8x7l.onrender.com/myBlog/update", { Id,Title:input.Title,Description:input.Description,Image:input.Image})
      
    
   }
