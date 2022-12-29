@@ -19,7 +19,7 @@ export default function MyBlog(Email) {
   const [blog, setBlog] = useState("")
   const userId = Email;
   const fetchdata = async () => {
-    const data = await axios.post("http://localhost:5000/myBlog", { userId })
+    const data = await axios.post("https://blog-app-server-8x7l.onrender.com/myBlog", { userId })
     console.log(data);
     setBlog(data)
   };
@@ -30,7 +30,7 @@ export default function MyBlog(Email) {
 
   const  Delete=async(Id)=> {
     console.log(Id);
-    await axios.post("http://localhost:5000/myBlog/delete", { Id })
+    await axios.post("https://blog-app-server-8x7l.onrender.com/myBlog/delete", { Id })
     fetchdata();
   }
   const Update=async(Id)=>{
